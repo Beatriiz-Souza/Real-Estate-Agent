@@ -6,177 +6,140 @@
     <meta name="description" content="Beatriz Souza - Corretora Imobiliária, ajudando a realizar o seu sonho">
     <title>Beatriz Souza - Corretora Imobiliária</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #2C2C2C; /* Fundo cinza escuro */
-            color: #EAEAEA; /* Texto branco suave */
+            background-color: #f4f4f9;
+            color: #333;
         }
-
         header {
-            background-color: #1C1C1C; /* Preto suave */
+            background-color: #4a5a41;
             padding: 20px;
             text-align: center;
-            color: #D4AF37; /* Dourado suave */
-            font-size: 28px;
-            letter-spacing: 1.5px;
+            color: white;
+            font-size: 24px;
         }
-
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333; /* Cinza escuro */
+            background-color: #6b775a;
             padding: 10px;
         }
-
         nav a {
-            color: #D4AF37; /* Dourado suave */
+            color: white;
             text-decoration: none;
             margin: 0 15px;
             font-size: 18px;
-            font-weight: bold;
         }
-
         nav a:hover {
-            color: #F1C40F; /* Dourado mais claro ao passar o mouse */
+            text-decoration: underline;
         }
-
         .hero {
-            background-color: #1C1C1C; /* Preto suave */
-            color: #EAEAEA; /* Branco suave */
+            background-color: #5a6a4a;
+            color: white;
             padding: 100px 20px;
             text-align: center;
         }
-
         .hero h1 {
             font-size: 48px;
             margin-bottom: 20px;
-            color: #D4AF37; /* Dourado */
         }
-
         .hero p {
             font-size: 20px;
-            color: #EAEAEA; /* Branco suave */
         }
-
         .section-title {
             text-align: center;
             margin-top: 50px;
             font-size: 32px;
-            color: #D4AF37; /* Dourado */
+            color: #4a5a41;
         }
-
         .about {
             padding: 50px 20px;
             text-align: center;
-            background-color: #2C2C2C; /* Cinza escuro */
+            background-color: white;
         }
-
         .about h2 {
             font-size: 36px;
             margin-bottom: 20px;
-            color: #D4AF37; /* Dourado */
         }
-
         .about p {
             font-size: 18px;
-            color: #EAEAEA; /* Branco suave */
+            color: #666;
             max-width: 800px;
             margin: 0 auto;
         }
-
         .services {
             padding: 50px 20px;
-            background-color: #1C1C1C; /* Preto suave */
+            background-color: #f9f9f9;
             text-align: center;
         }
-
         .services h2 {
             font-size: 36px;
             margin-bottom: 20px;
-            color: #D4AF37; /* Dourado */
+            color: #4a5a41;
         }
-
         .services p {
             font-size: 18px;
-            color: #EAEAEA; /* Branco suave */
+            color: #666;
             max-width: 800px;
             margin: 0 auto;
         }
-
         footer {
-            background-color: #333; /* Cinza escuro */
+            background-color: #4a5a41;
             padding: 20px;
             text-align: center;
-            color: #D4AF37; /* Dourado */
+            color: white;
         }
-
         .social-media {
             margin: 20px 0;
         }
-
         .social-media a {
-            color: #D4AF37; /* Dourado */
+            color: white;
             margin: 0 10px;
             font-size: 24px;
             text-decoration: none;
         }
-
-        .social-media a:hover {
-            color: #F1C40F; /* Dourado mais claro */
-        }
-
         .contact-form {
             max-width: 600px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #1C1C1C; /* Preto suave */
+            background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
         .contact-form h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #D4AF37; /* Dourado */
+            color: #4a5a41;
         }
-
         .contact-form input,
         .contact-form textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
-            border: 1px solid #555;
-            background-color: #333;
-            color: #EAEAEA;
+            border: 1px solid #ddd;
             border-radius: 5px;
             font-size: 16px;
         }
-
         .contact-form button {
             width: 100%;
             padding: 10px;
-            background-color: #D4AF37; /* Dourado */
+            background-color: #4a5a41;
             border: none;
-            color: #1C1C1C;
+            color: white;
             font-size: 18px;
             border-radius: 5px;
             cursor: pointer;
         }
-
         .contact-form button:hover {
-            background-color: #F1C40F; /* Dourado mais claro */
+            background-color: #6b775a;
         }
-
         @media (max-width: 768px) {
             .properties {
                 flex-direction: column;
                 align-items: center;
             }
-
             .property {
                 width: 90%;
             }
@@ -187,28 +150,23 @@
     <header>
         Beatriz Souza - Corretora Imobiliária
     </header>
-
     <nav>
         <a href="#sobre">Sobre Mim</a>
         <a href="#servicos">Serviços</a>
         <a href="#contato">Contato</a>
     </nav>
-
     <div class="hero">
         <h1>Ajudando você a realizar o seu sonho</h1>
         <p>Venda e arrendamento de imóveis, cuidando de cada detalhe para você</p>
     </div>
-
     <div class="about" id="sobre">
         <h2>Sobre Mim</h2>
         <p>Sou Beatriz Souza, corretora imobiliária especializada na venda e arrendamento de imóveis. Meu trabalho é garantir que você encontre o imóvel ideal, ou que seu imóvel seja vendido com rapidez e segurança. Estou comprometida em ajudar meus clientes a realizarem seus sonhos, com um atendimento personalizado e atento aos detalhes.</p>
     </div>
-
     <div class="services" id="servicos">
         <h2>Meus Serviços</h2>
         <p>Ofereço serviços de venda e arrendamento de imóveis, ajudando você a encontrar o imóvel perfeito ou a garantir que seu imóvel seja alugado ou vendido com segurança e eficiência. Minha missão é tornar todo o processo o mais simples e tranquilo possível para você.</p>
     </div>
-
     <div class="contact-form" id="contato">
         <h2>Entre em Contato</h2>
         <form action="https://formspree.io/f/xgvwjppq" method="POST">
@@ -218,10 +176,13 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
-
+    
+    
+    </div>
     <footer>
         <div class="social-media">
-            <a href="https://wa.me/351931860360" target="_blank">WhatsApp</a>
+            <a href="https://wa.me/351931860360
+                        " target="_blank">WhatsApp</a>
             <a href="https://instagram.com/beatriz.souza_chave.nova" target="_blank">Instagram</a>
         </div>
         <p>&copy; 2024 - Beatriz Souza - Corretora Imobiliária</p>
